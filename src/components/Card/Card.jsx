@@ -7,6 +7,7 @@ const CardDiv = styled.div`
   padding: 32px;
   gap: 32px;
   display: flex;
+  flex-direction: column;
 `
 
 export const Card = ({ children }) => {
